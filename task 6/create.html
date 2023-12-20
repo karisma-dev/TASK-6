@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Your Own Story</title>
+    <style type="text/css">
+        * {
+            margin: 5px;
+            padding: 5px;
+        }
+
+        body {
+            background-image: url('createbg.png');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(23, 19, 19);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            width: 25rem;
+            margin: auto;
+            color: whitesmoke;
+            backdrop-filter: blur(16px) saturate(180%);
+            -webkit-backdrop-filter: blur(16px) saturate(180%);
+            background-color: rgba(11, 15, 13, 0.582);
+            border-radius: 8px;
+            border: 1px solid #e7e2e020;
+            padding: 12px;
+            margin-bottom: 40px;
+        }
+
+        input[type=text], input[type=password] {
+            width: calc(100% - 36px); /* Adjusting width */
+            margin: 10px 0;
+            border-radius: 5px;
+            padding: 12px 18px; /* Adjusting padding */
+            box-sizing: border-box;
+            border: none; /* Removing border */
+            background-color:white(255, 255, 255, 0.2); /* Adding background color */
+            color: white; /* Changing text color */
+        }
+
+        button {
+            background-color: #eef4ef;
+            color: white;
+            padding: 14px 20px;
+            border-radius: 5px;
+            margin: 7px 0;
+            width: 100%;
+            font-size: 18px;
+            border: none; /* Removing border */
+            cursor: pointer;
+
+        }
+
+        button:hover {
+            opacity: 0.6;
+        }
+
+        .mainContainer {
+            padding: 16px;
+        }
+
+p {
+    text-align: center;
+    position: absolute;
+    top: 70px; 
+    width: 100%;
+    color: black; 
+    z-index: 1000;
+    font-family: 'Stencil', sans-serif;; 
+    font-style: normal; 
+    font-weight: normal; 
+    font-size: 14px;
+    margin-bottom: 40px;
+           
+}
+
+
+button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+textarea {
+    width: calc(100% - 36px);
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 12px 18px;
+    box-sizing: border-box;
+    border: none;
+    background-color: white(255, 255, 255, 0.2);
+    color: white;
+   
+    rows: 10;
+}
+
+
+        </style>
+        <title>Create Form</title>
+        <h1><center>Create Your Own Stories!</center></h1>
+        <p><center> Tell us a unique and innovative idea.The top 5 ideas will be developed into a video and will be displayed at the end of every week on the website. </center></p>
+       
+    <body> <font color="#000000"></font> 
+        <div class ="main">
+            <div class="createform">
+        
+                    <form> 
+                      <center> <input type="text" id="storyTitle" name="storyTitle" placeholder="Enter the title of your story" required><br><br></center> 
+                       <center><textarea id="message" name="storyContent" placeholder="Write your story here" rows="8" columns="10" required></textarea><br><br> </center> 
+                    <center><input type="submit" value="Create"/></center>
+                    
+                   
+     </form>
+    </div>
+    </div>
+</head>
+    </body>
+  </html>
